@@ -73,11 +73,14 @@ public class Main {
         //System.out.println(accessModifiers);
 
         //Test1(2017.08.17)
-        Test1 test1 = new Test1();
-        test1.Test1();
-        test1.Test2();
-        test1.Test3();
-        test1.Test4();
+        //Test1 test1 = new Test1();
+        //test1.Test1();
 
+        //Thest2(2017.08.18)
+        Test2 test2 = new Test2(8,18);
+        System.out.println(test2.test1());
+        System.out.println(test2.test2());
+        System.out.println(test2.test3());
+        System.out.println(test2.test4());
     }
 }
