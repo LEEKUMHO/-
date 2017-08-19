@@ -77,10 +77,15 @@ public class Main {
         //test1.Test1();
 
         //Thest2(2017.08.18)
-        Test2 test2 = new Test2(8,18);
-        System.out.println(test2.test1());
-        System.out.println(test2.test2());
-        System.out.println(test2.test3());
-        System.out.println(test2.test4());
+        //Test2 test2 = new Test2(8,18);
+        //System.out.println(test2.test1());
+        //System.out.println(test2.test2());
+        //System.out.println(test2.test3());
+        //System.out.println(test2.test4());
+
+        //Test3
+        Test3 test3 = new Test3();
+        test3.Diamond();
+
     }
 }
